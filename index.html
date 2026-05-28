@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Leomora — AI Video Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NOISE OVERLAY -->
+  <div class="noise"></div>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-logo">Leomora<span class="dot">.</span></div>
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#pricing">Pricing</a>
+    </div>
+    <a href="#waitlist" class="nav-cta">Get early access</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="orb orb3"></div>
+      <div class="grid-lines"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge">✦ Now in Beta — Limited spots available</div>
+      <h1 class="hero-title">
+        Turn your words<br/>
+        <em>into cinema.</em>
+      </h1>
+      <p class="hero-sub">
+        Leomora transforms text prompts into breathtaking AI-generated videos in seconds. 
+        No editing skills needed. Just imagine — and watch it come to life.
+      </p>
+      <div class="hero-btns">
+        <a href="#waitlist" class="btn-primary">Start creating free</a>
+        <a href="#how" class="btn-ghost">
+          <span class="play-icon">▶</span> Watch demo
+        </a>
+      </div>
+      <p class="hero-social-proof">
+        <span class="avatars">
+          <span class="av" style="background:#c9a96e"></span>
+          <span class="av" style="background:#8ba8c9"></span>
+          <span class="av" style="background:#c98b8b"></span>
+          <span class="av" style="background:#8bc9a4"></span>
+        </span>
+        Joined by <strong>12,400+</strong> creators worldwide
+      </p>
+    </div>
+
+    <!-- VIDEO PREVIEW CARDS -->
+    <div class="preview-grid">
+      <div class="preview-card card-1">
+        <div class="card-visual v1"></div>
+        <div class="card-info">
+          <span class="card-prompt">"Astronaut floating through a neon galaxy..."</span>
+          <span class="card-tag">4K · 12s</span>
+        </div>
+      </div>
+      <div class="preview-card card-2">
+        <div class="card-visual v2"></div>
+        <div class="card-info">
+          <span class="card-prompt">"Ancient temple at golden hour, cinematic..."</span>
+          <span class="card-tag">4K · 8s</span>
+        </div>
+      </div>
+      <div class="preview-card card-3">
+        <div class="card-visual v3"></div>
+        <div class="card-info">
+          <span class="card-prompt">"Cyberpunk city in heavy rain, neon lights..."</span>
+          <span class="card-tag">4K · 15s</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee">
+      <span>Cinematic Quality</span><span class="sep">✦</span>
+      <span>4K Resolution</span><span class="sep">✦</span>
+      <span>120+ Visual Styles</span><span class="sep">✦</span>
+      <span>Instant Generation</span><span class="sep">✦</span>
+      <span>No Experience Needed</span><span class="sep">✦</span>
+      <span>Commercial License</span><span class="sep">✦</span>
+      <span>Cinematic Quality</span><span class="sep">✦</span>
+      <span>4K Resolution</span><span class="sep">✦</span>
+      <span>120+ Visual Styles</span><span class="sep">✦</span>
+      <span>Instant Generation</span><span class="sep">✦</span>
+      <span>No Experience Needed</span><span class="sep">✦</span>
+      <span>Commercial License</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="section-label">✦ Features</div>
+    <h2 class="section-title">Everything you need<br/><em>to create</em></h2>
+
+    <div class="features-grid">
+      <div class="feature-card fc-large">
+        <div class="feature-icon">◈</div>
+        <h3>Prompt to Video in Seconds</h3>
+        <p>Type any idea in plain English. Our AI understands context, mood, lighting, and style to generate stunning results instantly.</p>
+        <div class="feature-visual fv1">
+          <div class="prompt-demo">
+            <span class="cursor-blink">A lone wolf running through a snowy pine forest at dusk_</span>
+          </div>
+          <div class="gen-bar">
+            <div class="gen-fill"></div>
+          </div>
+          <span class="gen-label">Generating... 94%</span>
+        </div>
+      </div>
+
+      <div class="feature-card fc-small">
+        <div class="feature-icon">◉</div>
+        <h3>120+ Cinematic Styles</h3>
+        <p>From anime to photorealism, cyberpunk to watercolour — switch styles with one click.</p>
+        <div class="style-pills">
+          <span class="spill active">Cinematic</span>
+          <span class="spill">Anime</span>
+          <span class="spill">Watercolour</span>
+          <span class="spill">Cyberpunk</span>
+          <span class="spill">3D Render</span>
+        </div>
+      </div>
+
+      <div class="feature-card fc-small">
+        <div class="feature-icon">◎</div>
+        <h3>4K Ultra HD Export</h3>
+        <p>Export in 4K resolution with commercial licensing. Use your videos anywhere — ads, social, films.</p>
+        <div class="res-display">4K</div>
+      </div>
+
+      <div class="feature-card fc-medium">
+        <div class="feature-icon">⬡</div>
+        <h3>AI Audio Sync</h3>
+        <p>Automatically generate matching background music, ambient sound, and voiceovers that perfectly sync to your video's mood.</p>
+      </div>
+
+      <div class="feature-card fc-medium">
+        <div class="feature-icon">◇</div>
+        <h3>Frame-Perfect Editing</h3>
+        <p>Fine-tune every frame. Adjust pacing, add transitions, and perfect your video with our intuitive timeline editor.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how" id="how">
+    <div class="section-label">✦ Process</div>
+    <h2 class="section-title">Three steps to<br/><em>your masterpiece</em></h2>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <div class="step-line"></div>
+        <div class="step-content">
+          <h3>Describe your vision</h3>
+          <p>Type a prompt as simple or detailed as you like. Describe the scene, mood, lighting, characters, and style in plain English.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <div class="step-line"></div>
+        <div class="step-content">
+          <h3>AI brings it to life</h3>
+          <p>Our model processes thousands of cinematic references to generate your video with perfect composition, movement, and atmosphere.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <div class="step-line"></div>
+        <div class="step-content">
+          <h3>Export & share</h3>
+          <p>Download in 4K with full commercial rights. Share directly to YouTube, Instagram, TikTok, or your client's platform.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <div class="section-label">✦ Pricing</div>
+    <h2 class="section-title">Simple, transparent<br/><em>pricing</em></h2>
+
+    <div class="toggle-wrap">
+      <span class="toggle-label" id="lbl-monthly">Monthly</span>
+      <div class="toggle" onclick="togglePricing()" id="price-toggle">
+        <div class="toggle-knob"></div>
+      </div>
+      <span class="toggle-label" id="lbl-yearly">Yearly <span class="save-badge">Save 30%</span></span>
+    </div>
+
+    <div class="pricing-grid">
+      <div class="price-card">
+        <div class="plan-name">Starter</div>
+        <div class="plan-price">
+          <span class="currency">$</span>
+          <span class="amount" data-monthly="0" data-yearly="0">0</span>
+          <span class="period">/mo</span>
+        </div>
+        <p class="plan-desc">Perfect for exploring Leomora's capabilities.</p>
+        <ul class="plan-features">
+          <li>✓ 10 videos/month</li>
+          <li>✓ Up to 720p quality</li>
+          <li>✓ 20 style presets</li>
+          <li>✓ Watermarked export</li>
+          <li class="dim">✗ Commercial license</li>
+          <li class="dim">✗ Priority generation</li>
+        </ul>
+        <a href="#waitlist" class="plan-btn btn-outline">Get started free</a>
+      </div>
+
+      <div class="price-card featured">
+        <div class="popular-badge">Most Popular</div>
+        <div class="plan-name">Pro</div>
+        <div class="plan-price">
+          <span class="currency">$</span>
+          <span class="amount" data-monthly="29" data-yearly="20">29</span>
+          <span class="period">/mo</span>
+        </div>
+        <p class="plan-desc">For creators and professionals who need more.</p>
+        <ul class="plan-features">
+          <li>✓ 100 videos/month</li>
+          <li>✓ Up to 4K quality</li>
+          <li>✓ 120+ style presets</li>
+          <li>✓ No watermark</li>
+          <li>✓ Commercial license</li>
+          <li>✓ Priority generation</li>
+        </ul>
+        <a href="#waitlist" class="plan-btn btn-primary">Start Pro trial</a>
+      </div>
+
+      <div class="price-card">
+        <div class="plan-name">Studio</div>
+        <div class="plan-price">
+          <span class="currency">$</span>
+          <span class="amount" data-monthly="99" data-yearly="69">99</span>
+          <span class="period">/mo</span>
+        </div>
+        <p class="plan-desc">For studios and agencies at scale.</p>
+        <ul class="plan-features">
+          <li>✓ Unlimited videos</li>
+          <li>✓ 8K quality</li>
+          <li>✓ Custom style training</li>
+          <li>✓ No watermark</li>
+          <li>✓ Full commercial rights</li>
+          <li>✓ Dedicated support</li>
+        </ul>
+        <a href="#waitlist" class="plan-btn btn-outline">Contact sales</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAITLIST -->
+  <section class="waitlist" id="waitlist">
+    <div class="waitlist-inner">
+      <div class="orb orb-w1"></div>
+      <div class="orb orb-w2"></div>
+      <div class="section-label" style="color:#c9a96e;">✦ Early Access</div>
+      <h2 class="waitlist-title">Be first to<br/><em>create the future</em></h2>
+      <p class="waitlist-sub">Join 12,400+ creators on the waitlist. Early members get 3 months of Pro — free.</p>
+
+      <div class="waitlist-form" id="waitlist-form">
+        <input type="email" id="email-input" placeholder="your@email.com" />
+        <button onclick="joinWaitlist()">Join waitlist →</button>
+      </div>
+      <div class="waitlist-success" id="waitlist-success">
+        <span class="success-icon">✦</span>
+        <p>You're on the list! We'll be in touch soon.</p>
+      </div>
+      <p class="waitlist-note">No spam. Unsubscribe anytime.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="nav-logo">Leomora<span class="dot">.</span></div>
+        <p>Turn imagination into cinema.<br/>Powered by AI.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Product</h4>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Changelog</a>
+          <a href="#">Roadmap</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#">About</a>
+          <a href="#">Blog</a>
+          <a href="#">Careers</a>
+          <a href="#">Press</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Leomora AI Inc. All rights reserved.</p>
+      <p>Built with ♥ by Bhavy Mehta</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
